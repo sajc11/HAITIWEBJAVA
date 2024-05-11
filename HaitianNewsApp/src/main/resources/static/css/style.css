@@ -1,0 +1,102 @@
+/* General Body Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f7f7f7;
+    margin: 0;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+/* Container for Centering Layout */
+.container {
+    max-width: 800px;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+/* Responsive Design for Mobile and Small Screens */
+@media only screen and (max-width: 600px) {
+    .container {
+        width: 95%;
+        margin: 10px auto;
+        padding: 10px;
+    }
+}
+
+/* Typography Enhancements */
+h1, h2, h3 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+p {
+    line-height: 1.5;
+    color: #555;
+}
+
+/* Card Design for News Items */
+.card {
+    background: #fff;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+.card-body {
+    padding: 15px;
+}
+
+.card-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.card-text {
+    font-size: 14px;
+}
+
+/* Button and Link Enhancements */
+button, a {
+    font-size: 16px;
+    padding: 10px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: white;
+    background-color: #007bff;
+    border: none;
+    transition: background-color 0.3s;
+}
+
+button:hover, a:hover {
+    background-color: #0056b3;
+}
+
+/* Navbar and Footer Styles */
+.navbar, .footer {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+.navbar a, .footer a {
+    color: white;
+    text-decoration: none;
+    padding: 5px 10px;
+}
+
+.navbar {
+    margin-bottom: 20px;
+}

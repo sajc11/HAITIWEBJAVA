@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Almendra+Display&family=Amarante&family=Bellefair&display=swap');
+
+html {
+    scroll-behavior: smooth;
+}
+
+html, body {
+    background-color: #EDEBEE;
+}
+#content {
+    position: relative;
+    width: 80%;
+    margin: auto;
+}
+article {
+    margin: 4em 0;
+    padding: 1em 0;
+}
+/* Button and Link Enhancements */
+button, a {
+    font-size: 16px;
+    padding: 10px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #ffffff;
+    border: none;
+    transition: background-color 0.3s;
+}
+h1, .indicator-tooltip {
+    margin-top: 0;
+    /*   font-family: helvetica, sans-serif; */
+    /*   font-weight: 100; */
+    -webkit-font-smoothing: antialiased;
+    font-family: "Amarante", serif;
+    font-weight: 100;
+    /*   font-weight: light; */
+}
+h1 {
+    font-size: 5em;
+    color: #523441;
+}
+p {
+    font-family: georgia, serif;
+    line-height: 1.5em;
+    margin-bottom: 1.5em;
+}
+
+article p:first-of-type::first-letter {
+    float: left;
+    font-size: 5em;
+    margin-right: 10px;
+    line-height: 1;
+    font-family: "Almendra Display", serif;
+    font-weight: bold;
+    font-style: normal;
+    color: #523441;
+    opacity: 0.5;
+    position: relative;
+}

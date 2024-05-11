@@ -100,3 +100,35 @@ button:hover, a:hover {
 .navbar {
     margin-bottom: 20px;
 }
+
+header {
+    background-color: #f8f9fa;
+    padding: 10px 20px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+nav {
+    text-align: center; /* Center the navigation menu */
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0; /* Remove default margin */
+}
+
+nav ul li {
+    display: inline-block; /* Display list items inline */
+    margin-right: 20px; /* Space between menu items */
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #81bac2;
+    font-weight: bold; /* Optional: makes the text bold */
+}
+
+nav ul li a:hover {
+    color: #6e9da4; /* Darken the link color on hover */
+    text-decoration: underline; /* Underline on hover */
+}

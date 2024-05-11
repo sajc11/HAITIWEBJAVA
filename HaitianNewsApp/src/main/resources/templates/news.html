@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Haitian News</title>
+    <link rel="stylesheet" th:href="@{/css/news.css}">
+</head>
+<body>
+<nav>
+    <a th:href="@{/}">Home</a>
+    <a th:href="@{/essay}">Essay</a>
+    <a th:href="@{/news}">News</a>
+</nav>
+<div class="container">
+    <h1>Haitian News</h1>
+    <div th:each="newsItem : ${news}">
+        <div class="card" style="margin-bottom: 10px;">
+            <div class="card-body">
+                <h5 class="card-title"><a th:href="${newsItem.url}" th:text="${newsItem.title}" target="_blank">News Title</a></h5>
+                <p class="card-text" th:text="${newsItem.description}">News description here...</p>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>

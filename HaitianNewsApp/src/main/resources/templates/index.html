@@ -1,20 +1,20 @@
 <!DOCTYPE html>
 <html xmlns:th="http://www.thymeleaf.org">
 <head>
-    <title>Haitian News</title>
-    <link rel="stylesheet" href="/css/style.css">
+    <title>Landing Page</title>
+    <link rel="stylesheet" th:href="@{/css/style.css}">
 </head>
 <body>
+<header>
+    <nav>
+        <a th:href="@{/}">Home</a>
+        <a th:href="@{/essay}">Essay</a>
+        <a th:href="@{/news}">News</a>
+    </nav>
+</header>
 <div class="container">
-    <h1>Haitian News</h1>
-    <div th:each="newsItem : ${news}">
-        <div class="card" style="margin-bottom: 10px;">
-            <div class="card-body">
-                <h5 class="card-title" th:text="${newsItem.title}">News Title</h5>
-                <p class="card-text" th:text="${newsItem.description}">News description here...</p>
-            </div>
-        </div>
-    </div>
+    <h1>Welcome to the Haitian News App</h1>
+    <p>This is the landing page of the app.</p>
 </div>
 </body>
 </html>

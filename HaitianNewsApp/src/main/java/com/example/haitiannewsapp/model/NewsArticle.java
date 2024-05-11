@@ -11,6 +11,9 @@ public class NewsArticle {
     @JsonProperty("description")
     private String description;
 
+    @JsonProperty("url") // Ensure this matches the JSON property name for the URL
+    private String url;
+
     // Constructors
     public NewsArticle() {}
 
@@ -29,5 +32,13 @@ public class NewsArticle {
 
     public void setDescription(String description) {
         this.description = description;
+    }
+
+    public String getUrl() { // Getter for the URL
+        return url;
+    }
+
+    public void setUrl(String url) { // Setter for the URL
+        this.url = url;
     }
 }

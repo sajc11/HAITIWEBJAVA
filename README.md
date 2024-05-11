@@ -6,7 +6,7 @@ The Haitian News App provides a dynamic and engaging platform tailored specifica
 ## Features
 - **Home Page:** Overview of the app’s purpose and core features.
 - **Essay Page:** Deep dives into thematic issues impacting Haiti, fostering deeper understanding and engagement.
-- **News Page:** Real-time updates and detailed reports on Haitian news, political events, and social movements.
+- **News Page:** Real-time updates and detailed reports on Haitian news, political events, and social movements aimed towards Haitian youth.
 - **Statistics Page:** Visual representations of crucial statistics like population growth, GDP, and life expectancy through interactive charts.
 
 ## Installation
@@ -23,11 +23,6 @@ Navigate through the app using the navigation bar at the top. Each page provides
 - **Essay:** Read in-depth analyses on various topics.
 - **News:** Stay updated with the latest news.
 - **Statistics:** Explore interactive charts detailing key statistical data.
-
-## Contributing
-Contributions are welcome! Please fork the repository and submit pull requests with your proposed changes. For major changes, open an issue first to discuss what you would like to change.
-
-Ensure to update tests as appropriate and adhere to the existing coding style.
 
 ## License
 The Haitian News App is open source with a [MIT license](https://opensource.org/licenses/MIT).

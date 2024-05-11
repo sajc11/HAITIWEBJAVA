@@ -15,6 +15,10 @@ public class WebController {
     @Autowired
     private NewsService newsService;
 
+    @GetMapping("/stats")
+    public String stats() {
+        return "stats"; // Returns the landing page template
+    }
     @GetMapping("/")
     public String index() {
         return "index"; // Returns the landing page template

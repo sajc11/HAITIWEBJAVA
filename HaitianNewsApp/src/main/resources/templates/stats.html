@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Haiti Statistics Dashboard</title>
+        <link rel="stylesheet" th:href="@{/css/stats.css}">
+        <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    </head>
+    <body>
+        <nav>
+            <a th:href="@{/}">Home</a>
+            <a th:href="@{/essay}">Essay</a>
+            <a th:href="@{/news}">News</a>
+            <a th:href="@{/stats}">Statistics</a>
+        </nav>
+
+        <div class="container">
+            <div class="chart-container">
+                <canvas class="chart" id="populationChart"></canvas>
+                <p class="chart-description">This line chart illustrates the growth of Haiti's population from 2010 to 2025, highlighting a steady increase that could impact social and economic development.</p>
+            </div>
+            <div class="chart-container">
+                <canvas class="chart" id="gdpChart"></canvas>
+                <p class="chart-description">The bar chart shows Haiti's GDP in billions of USD from 2010 to 2025, indicating a rise in economic output and potential investment opportunities.</p>
+            </div>
+            <div class="chart-container">
+                <canvas class="chart" id="lifeExpectancyChart"></canvas>
+                <p class="chart-description">This pie chart represents the increase in life expectancy in Haiti at four key intervals: 2010, 2015, 2020, and 2025, suggesting improvements in healthcare and living conditions.</p>
+            </div>
+        </div>
+        <script src="/js/stats.js"></script>
+    </body>
+</html>

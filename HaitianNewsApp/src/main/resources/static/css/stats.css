@@ -1,0 +1,149 @@
+
+html {
+    scroll-behavior: smooth;
+}
+html, body {
+    background-color: #EDEBEE;
+}
+
+nav {
+    background-color: #c8c5c9; /* Darker shade for better visibility */
+    color: white;
+    padding: 20px 40px; /* Increase padding to make the navbar taller */
+    text-align: center;
+
+    font-size: 20px; /* Larger font size for better readability */
+}
+/*-- -------------------------- -->
+<---   Side By Side Reverse     -->
+<--- -------------------------- -*/
+.card {
+    background: #EDEBEE;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    transition: transform 0.3s ease-in-out;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+.card-body {
+    padding: 15px;
+}
+.card-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+/* Enhance Navbar Styles */
+nav {
+    background-color: #c8c5c9; /* Darker shade for better visibility */
+    color: white;
+    padding: 20px 40px; /* Increase padding to make the navbar taller */
+    text-align: center;
+    font-size: 20px; /* Larger font size for better readability */
+}
+
+nav {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px; /* Larger padding for better tap targets */
+}
+.container {
+    width: 90%; /* Slightly reduced width for better margin view */
+    margin: auto;
+    padding: 10px;
+    display: flex;
+    flex-direction: column; /* Stack children vertically */
+    align-items: center; /* Center-align the content */
+}
+/* Button and Link Enhancements */
+button, a {
+    font-size: 20px;
+    padding: 10px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #523340;
+    border: none;
+    transition: background-color 0.3s;
+}
+h1, .indicator-tooltip {
+    margin-top: 0;
+    /*   font-family: helvetica, sans-serif; */
+    /*   font-weight: 100; */
+    -webkit-font-smoothing: antialiased;
+    font-family: "Amarante", serif;
+    font-weight: 100;
+    /*   font-weight: light; */
+}
+/* Responsive Design for Mobile and Small Screens */
+
+header {
+    background-color: #c8c5c9;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+/* Responsive Design Adjustments */
+@media (max-width: 768px) {
+    .container, .card, .card-title, .card-text {
+        padding: 15px; /* Adjust padding */
+        font-size: 18px; /* Adjust font size for smaller screens */
+    }
+}
+
+/* Enhancements for large screens */
+@media (min-width: 768px) {
+    .container {
+        flex-direction: row; /* Horizontal stacking for wider screens */
+        flex-wrap: wrap; /* Allows wrapping of items */
+        justify-content: space-around; /* Even spacing around items */
+    }
+
+    .card {
+        width: 45%; /* Two cards per row on larger screens */
+        margin: 20px; /* More margin for better spacing */
+    }
+}
+
+@media (min-width: 170rem) {
+    /* Button and Link Enhancements */
+    a {
+        font-size: 40px;
+        padding: 10px 15px;
+        border-radius: 5px;
+        text-decoration: none;
+        color: #523340;
+        border: none;
+        transition: background-color 0.3s;
+    }
+
+    h1, .indicator-tooltip {
+        margin-top: 0;
+        /*   font-family: helvetica, sans-serif; */
+        /*   font-weight: 100; */
+        -webkit-font-smoothing: antialiased;
+        font-family: "Amarante", serif;
+        font-weight: 100;
+        /*   font-weight: light; */
+    }
+
+    nav {
+        background-color: #c8c5c9; /* Darker shade for better visibility */
+        color: white;
+        padding: 40px 60px; /* Increase padding to make the navbar taller */
+        text-align: center;
+        font-size: 70px; /* Larger font size for better readability */
+    }
+
+    nav {
+        color: white;
+        text-decoration: none;
+        padding: 10px 20px; /* Larger padding for better tap targets */
+    }
+}

@@ -3,6 +3,7 @@
 <head>
     <title>Landing Page</title>
     <link rel="stylesheet" th:href="@{/css/style.css}">
+    <link rel="stylesheet" th:href="@{/css/global.css}">
 </head>
 <body>
 <header>
@@ -10,11 +11,71 @@
         <a th:href="@{/}">Home</a>
         <a th:href="@{/essay}">Essay</a>
         <a th:href="@{/news}">News</a>
+        <a th:href="@{/stats}">Statistics</a>
     </nav>
 </header>
-<div class="container">
-    <h1>Welcome to the Haitian News App</h1>
-    <p>This is the landing page of the app.</p>
-</div>
+    <section id="sbsr-1599">
+        <div class="cs-container">
+            <div class="cs-content">
+                <span class="cs-topper">Haitian News</span>
+                <h2 class="cs-title">Harnessing Digital Technology for the Future of Haiti</h2>
+                <p class="cs-text">
+                    Welcome to the Haitian News App! Our mission is to
+                    harness the power of digital technology to foster a
+                    more informed, engaged, and proactive Haitian community.
+                    This platform is dedicated to providing young Haitians
+                    with timely news updates, comprehensive analyses, and
+                    interactive content focused on democracy and civic
+                    involvement.
+                </p>
+                <p class="cs-text">
+                    Through cutting-edge technology and user-centric design,
+                    we aim to make information accessible and engaging. Our
+                    content covers a broad spectrum of critical issues—from
+                    political developments and governance reforms to social
+                    movements and educational opportunities. By leveraging
+                    the potential of AI-driven tools and social media
+                    integration, the Haitian News App serves as a vital
+                    resource for empowering Haitian youth to actively
+                    participate in shaping a resilient and democratic society.
+                </p>
+                <p class="cs-text">
+                    Join us in driving positive change and building a brighter
+                    future for Haiti. Explore, engage, and be empowered
+                    through the Haitian News App!
+                </p>
+                <picture class="cs-picture cs-picture1">
+                    <!--Mobile Image-->
+                    <source media="(max-width: 600px)" srcset="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.bbc.com%2Fnews%2Fworld-latin-america-19548810&psig=AOvVaw0WkXEOzscHa4GSbv5PWtAi&ust=1715487745108000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCLCqhf_fhIYDFQAAAAAdAAAAABAE">
+                    <!--Tablet and above Image-->
+                    <source media="(min-width: 601px)" srcset="https://media.istockphoto.com/id/1334754823/photo/shanty-town-on-the-edge-of-port-au-prince.jpg?s=612x612&w=0&k=20&c=x7YlISc0s62akYhzmq51R40bnRen7Px9r1GL2uu4yn8=">
+                    <img loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/people.jpg" alt="people" width="608" height="406">
+                </picture>
+            </div>
+            <div class="cs-stats-group">
+                <picture class="cs-picture cs-picture2">
+                    <!--Mobile Image-->
+                    <source media="(max-width: 600px)" srcset="https://evidentchange.org/wp-content/uploads/2023/05/Kids-with-Haitian-flag-1024x677.png">
+                    <!--Tablet and above Image-->
+                    <source media="(min-width: 601px)" srcset="https://www.miamiherald.com/latest-news/e55pxl/picture230200544/alternates/LANDSCAPE_960/HaitianCompas_011_MHD_BCH.JPG">
+                    <img loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/model2.jpg" alt="people" width="608" height="662">
+                </picture>
+                <ul class="cs-stats">
+                    <li class="cs-stat">
+                        <span class="cs-number">29.72%</span>
+                        <span class="cs-desc">Average Voter Turnout</span>
+                    </li>
+                    <li class="cs-stat">
+                        <span class="cs-number">11</span>
+                        <span class="cs-desc">Million Inhabitants</span>
+                    </li>
+                    <li class="cs-stat">
+                        <span class="cs-number">30/100</span>
+                        <span class="cs-desc">Global Freedom Score</span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
 </body>
 </html>

@@ -1,7 +1,7 @@
 # README for Haitian News App
 
 ## Introduction
-The Haitian News App provides a dynamic and engaging platform tailored specifically for young Haitians. It aims to harness the power of digital technology to foster a more informed, engaged, and proactive Haitian community through timely news updates, comprehensive analyses, and interactive content focused on democracy and civic involvement.
+The Haitian News App provides a dynamic and engaging platform tailored specifically for young Haitians. It aims to harness the power of digital technology to foster a more informed, engaged, and proactive Haitian community through timely news updates, comprehensive analyses, and interactive content focused on democracy and civic involvement. This app is designed to allow those who access to view theme-specific news articles and news opportunities. Additionally, this app is designed to work compatibly with a phone, tablet, or laptop, which is specifically beneficial for our use case, enabling individuals to access key information and news no matter what device they are using to access!
 
 ## Features
 - **Home Page:** Overview of the app’s purpose and core features.

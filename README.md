@@ -15,7 +15,7 @@ To set up the Haitian News App locally, you need to have Node.js and npm install
 2. Navigate to the project directory: `cd haitian-news-app`
 3. Install dependencies: `npm install`
 4. Start the server: `npm start`
-5. Open your browser and visit `http://localhost:3000` to view the app.
+5. Open your browser and visit `http://localhost:8080` to view the app.
 
 ## Usage
 Navigate through the app using the navigation bar at the top. Each page provides specific information or functionality:
